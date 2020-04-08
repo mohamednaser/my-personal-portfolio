@@ -926,6 +926,11 @@ button:focus {
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   color: #fff;
 }
+.main-tag {
+  background-color: #766dff !important;
+  color: #eeeeee !important;
+  font-weight: bold;
+}
 .blog_right_sidebar .br {
   width: 100%;
   height: 1px;
