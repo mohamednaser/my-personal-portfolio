@@ -25,7 +25,7 @@
   </head>
   <body>
     <!--================Header Menu Area =================-->
-    <header class="header_area">
+    <header class="header_area" id="home">
       <div class="main_menu">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container box_1620">
@@ -53,15 +53,17 @@
             >
               <ul class="nav navbar-nav menu_nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about-us.html">About</a>
+                  <a class="nav-link" href="#about_me_section">About Me</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
+                  <a class="nav-link" href="#my_experiance_section"
+                    >My Experiance</a
+                  >
                 </li>
-                <li class="nav-item submenu dropdown">
+                <!-- <li class="nav-item submenu dropdown">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
@@ -79,8 +81,8 @@
                       <a class="nav-link" href="elements.html">Elements</a>
                     </li>
                   </ul>
-                </li>
-                <li class="nav-item submenu dropdown">
+                </li> -->
+                <!-- <li class="nav-item submenu dropdown">
                   <a
                     href="#"
                     class="nav-link dropdown-toggle"
@@ -89,8 +91,8 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                     >Blog</a
-                  >
-                  <ul class="dropdown-menu">
+                  > -->
+                <!-- <ul class="dropdown-menu">
                     <li class="nav-item">
                       <a class="nav-link" href="blog.html">Blog</a>
                     </li>
@@ -99,11 +101,11 @@
                         >Blog Details</a
                       >
                     </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
+                  </ul> -->
+                <!-- </li> -->
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -124,7 +126,17 @@
               <div class="media-body">
                 <div class="personal_text">
                   <h6>Hello Everybody, i am</h6>
-                  <h3>Mohamed Naser</h3>
+                  <h3>
+                    <span
+                      style="   
+                           font-size: 100%;
+                           color: #747fe0;
+                           background-color: rgba(116,127,224,.65);
+                           font: inherit;"
+                      >&nbsp;</span
+                    >
+                    Mohamed Naser
+                  </h3>
                   <h4>Full-Stack Web Developer</h4>
                   <p>
                     Software development is hard. Managing projects is hard.
@@ -237,33 +249,34 @@
               <p>
                 I'm motivated , creative, analytical, and passionate about web
                 development seeks employment as part of a dynamic software
-                development team. <br />
-                Having more than five years experience in web development
+                development team. <br /><br />
+                I have more than five years experience in web development
                 responsible for developing projects in multiples fields
                 communication, finance, stocks, push notifications, E-commerce,
-                etc. <br />
+                etc.. <br /><br />
                 While I was a student, I applied my technical skills to
                 extracurricular projects and taught myself PHP to built a
                 greater project for tracking network signals quality and get
                 analysis reports for the network coverage in my country, also I
                 built an archiving system for automated documentation in an
-                important sector in the Egyptian government. <br />
-                After Graduated I continued to expand my coding knowledge and
+                important sector in the Egyptian government. <br /><br />
+                After Graduation I continued to expand my coding knowledge and
                 joined a software house company called Nile code where I was
                 thrown into the deep end of PHP, RESTful APIs and delivered a
                 responsive web app to build financial reports management system
                 for Johnson & Johnson company, push notifications system for the
-                TOTAL company. <br />
+                TOTAL company.<br /><br />
                 After the Journey with Nilecode, I started with mitch designs to
                 build a great project trying to collect all public
                 transportation tickets in one hub with our product called
-                Tazhub. <br />
+                Tazhub.<br /><br />
                 I helped a lot of startups to build their technical projects
                 especially in backend staff (Mr print, golden, Carefer, etc
                 ...). <br />
                 To be a professional remote web developer I decided to join
                 Microverse to upgrade my technical and soft skills to be a part
-                of a remote and dynamic team working from any place. <br />
+                of a remote and dynamic team working from any place.
+                <br /><br />
                 As a remote Full-stack web developer am responsible for managing
                 back-end tasks, built frontend components and i have a very good
                 soft skills for easy communication with other remote team
@@ -288,21 +301,21 @@
                   <li><a href="#">CSS3</a></li>
                   <li><a href="#">JSX</a></li>
 
-                  <br/><br/>
+                  <br /><br />
                   <li><a href="#" class="main-tag">FrameWorks</a></li>
                   <br />
                   <li><a href="#">Laravel</a></li>
                   <li><a href="#">Yii2</a></li>
                   <li><a href="#">Zend2</a></li>
                   <li><a href="#">Ruby On Rails</a></li>
-                  <br/><br/>
+                  <br /><br />
                   <li><a href="#" class="main-tag">Databases</a></li>
                   <br />
                   <li><a href="#">MySQL</a></li>
                   <li><a href="#">PostgreSQL</a></li>
                   <li><a href="#">SQLite</a></li>
                   <li><a href="#">ActiveRecord</a></li>
-                  <br/><br/>
+                  <br /><br />
                   <li>
                     <a href="#" class="main-tag">Tools & Technologies </a>
                   </li>
@@ -318,7 +331,7 @@
                   <li><a href="#">Jira</a></li>
                   <li><a href="#">Redux</a></li>
 
-                  <br/><br/>
+                  <br /><br />
                   <li><a href="#" class="main-tag">Industry Knowledge </a></li>
                   <br />
                   <li><a href="#">OOP</a></li>
@@ -348,7 +361,7 @@
     <!--================End Welcome Area =================-->
 
     <!--================My Tabs Area =================-->
-    <section class="mytabs_area p_120">
+    <section class="mytabs_area p_120" id="my_experiance_section">
       <div class="container">
         <div class="tabs_inner">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -516,14 +529,44 @@
     <section class="feature_area p_120">
       <div class="container">
         <div class="main_title">
-          <h2>offerings to my clients</h2>
-          <p>
-            If you are looking at blank cassettes on the web, you may be very
-            confused at the difference in price. You may see some for as low as
-            $.17 each.
-          </p>
+          <h2>Proud To Collaborate With Awesome Companies</h2>
         </div>
-        <div class="feature_inner row">
+        <div>
+          <img
+            style="background-color: #FC732D;
+          padding: 1em;
+          width: 7em;
+          margin: 2em;"
+            src="./img/companies/carefer-logo.png"
+          />
+          <img
+            style="margin: 2em;"
+            src="./img/companies/mitchdesigns-logo.png"
+          />
+          <img
+            style="width: 20%;
+          color: red;
+          margin: 2em;
+          padding: 1em;
+          background-color: #6F70FC;"
+            src="./img/companies/microverse.png"
+          />
+
+          <img
+            style="
+                  background-color: #377F89;
+                  padding: 1em;
+                  border-radius: 5%;"
+            src="./img/companies/nilecode-logo.png"
+            alt=""
+          />
+          <img
+            style="width: 10em;
+          margin: 2em;"
+            src="./img/companies/brilliance-tech-logo.png"
+          />
+        </div>
+        <!-- <div class="feature_inner row">
           <div class="col-lg-4 col-md-6">
             <div class="feature_item">
               <i class="flaticon-city"></i>
@@ -557,13 +600,13 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!--================End Feature Area =================-->
 
     <!--================Home Gallery Area =================-->
-    <section class="home_gallery_area p_120">
+    <!-- <section class="home_gallery_area p_120">
       <div class="container">
         <div class="main_title">
           <h2>Our Latest Featured Projects</h2>
@@ -670,7 +713,7 @@
           <a class="main_btn" href="#">Load More Items</a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--================End Home Gallery Area =================-->
 
     <!--================Testimonials Area =================-->
@@ -850,7 +893,7 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                All rights reserved | This template is made with
+                All rights reserved | This template is supported with
                 <i class="fa fa-heart-o" aria-hidden="true"></i> by
                 <a href="https://colorlib.com" target="_blank">Colorlib</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -858,7 +901,7 @@
             </aside>
           </div>
           <div class="col-lg-5 col-sm-6">
-            <aside class="f_widget news_widget">
+            <!-- <aside class="f_widget news_widget">
               <div class="f_title">
                 <h3>Newsletter</h3>
               </div>
@@ -886,7 +929,7 @@
                   <div class="mt-10 info"></div>
                 </form>
               </div>
-            </aside>
+            </aside> -->
           </div>
           <div class="col-lg-2">
             <aside class="f_widget social_widget">
@@ -896,16 +939,14 @@
               <p>Let us be social</p>
               <ul class="list">
                 <li>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.facebook.com/ncmnaser" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-behance"></i></a>
+                  <a href="https://twitter.com/nc_mnaser" target="_blank"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
                 </li>
               </ul>
             </aside>
